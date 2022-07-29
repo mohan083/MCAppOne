@@ -16,6 +16,7 @@
 		AA542A3728930367006A4F56 /* success.m4a in Resources */ = {isa = PBXBuildFile; fileRef = AA542A3528930367006A4F56 /* success.m4a */; };
 		AA542A3828930367006A4F56 /* chimeup.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AA542A3628930367006A4F56 /* chimeup.mp3 */; };
 		AA542A3A28940566006A4F56 /* CircleAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA542A3928940566006A4F56 /* CircleAnimation.swift */; };
+		AA6FAFB52894519E001C65E6 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6FAFB42894519E001C65E6 /* AudioPlayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		AA542A3528930367006A4F56 /* success.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = success.m4a; sourceTree = "<group>"; };
 		AA542A3628930367006A4F56 /* chimeup.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chimeup.mp3; sourceTree = "<group>"; };
 		AA542A3928940566006A4F56 /* CircleAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleAnimation.swift; sourceTree = "<group>"; };
+		AA6FAFB42894519E001C65E6 /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 		AA542A2E2892FCF4006A4F56 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				AA6FAFB42894519E001C65E6 /* AudioPlayer.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -193,6 +196,7 @@
 				AA542A302892FD13006A4F56 /* OnBoarding.swift in Sources */,
 				AA542A3A28940566006A4F56 /* CircleAnimation.swift in Sources */,
 				AA542A1F2892FCD5006A4F56 /* MCAppOneApp.swift in Sources */,
+				AA6FAFB52894519E001C65E6 /* AudioPlayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
